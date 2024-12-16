@@ -1,0 +1,84 @@
+.Game-Heading{
+    font-size: 38px;
+    font-family: 'The grinch';
+    text-align: center;
+    filter: drop-shadow(0px 8px 6px black);
+    /* opacity: .8; */
+    background: -webkit-linear-gradient(#ffffff, #da007f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 2px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.img-container img{
+    border: 3px solid whitesmoke;
+    background-color: transparent;
+    border-radius: 50%;
+    filter: drop-shadow(0px 5px 8px rgb(0, 0, 0));
+    opacity: .8;
+}
+.img-container img:hover{
+    cursor: pointer;
+}
+.Main-section{
+    display: flex;
+    justify-content: center;
+}
+.Game-container{
+    height: 73vh;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.722);
+    margin-top: 0.6%;
+    opacity: .8;
+    border-radius: 25px;
+    animation: color 4s infinite ease-in-out;
+    border: 3px solid rgb(255, 255, 255);
+}
+@keyframes color{
+    0%{
+        box-shadow: 0px 8px 20px rgb(1, 243, 58);
+    }
+    50%{
+        box-shadow: 0px 8px 20px rgb(249, 4, 86);
+    }
+    60%{
+        box-shadow: 0px 8px 20px rgb(230, 251, 2);
+    }
+    80%{
+        box-shadow: 0px 8px 20px rgb(3, 197, 251);
+    }
+    100%{
+        box-shadow: 0px 8px 20px rgb(1, 243, 58);
+    }
+}
+
+.player-section{
+    height: 20%;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.886);
+    border-radius: 20px 20px 0 0;
+    opacity: .8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#symbol{
+    color: rgb(249, 5, 151);
+    font-weight:bold;
+    font-size: 27px;
+    font-style: italic;
+}
+.game-section{
+    height: 350px;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    /* background-color: #da007f; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
